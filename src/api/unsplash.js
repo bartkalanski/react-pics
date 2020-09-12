@@ -1,11 +1,8 @@
 import axios from 'axios'
 
-const key = '9_XYSaMup16xoKCs6iQNCccI8gdv5dGKvvNGY2hveKM'
-axios.create({
+export default axios.create({
     baseURL: 'https://api.unsplash.com',
     headers: {
-        Authorization: `Client-ID ${key}`
+        Authorization: 'Client-ID 9_XYSaMup16xoKCs6iQNCccI8gdv5dGKvvNGY2hveKM'
     }
 })
-
-export default key
